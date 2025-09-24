@@ -2,7 +2,7 @@
 name: WorkflowTest          # Nombre visible
 on:                                 # Cuándo ejecutar
   push:                            # Al hacer push
-    branches: [Rama1]      # En estas ramas
+    branches: [Rama1,main]      # En estas ramas
 jobs:                              # Trabajos a ejecutar
   mi_job:                          # Nombre del job
     runs-on: ubuntu-latest         # Máquina virtual
